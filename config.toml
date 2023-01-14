@@ -1,0 +1,92 @@
+baseurl = "/"
+title = "logs.teslur"
+languageCode = "ja-JP"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author]
+  name = "teslur （深堀哲史 / TETSUSHI Fukabori）"
+  bio = "A Software Engineer. 写真撮影、コーヒー、登山、愛犬と遊ぶこと、家族が好き."
+  avatar = "img/avatar.jpg"
+
+[Params]
+  description = "公開私的ログ" # Description of your site
+  copyright = "TETSUSHI Fukabori (@teslur)"
+  opengraph = true
+  schema = true
+  twitter_cards = true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true
+  toc = true
+  pager = true
+  post_meta = ["author", "date", "categories"] # Order of post meta information
+  mainSections = ["post"]
+  dateformat = "2006-01-02"
+  mathjax = true
+#  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+#  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+#  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+#  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#ed8c72" # Override highlight color
+#
+#  # Override font-family sets
+#  # Take care of different quotes OR escaping symbols in these params if necessary
+#  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+#  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+#  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+#  image = "img/placeholder.png" # Logo image. Path relative to "static"
+#  title = "Mainroad" # Logo title, otherwise will use site title
+  subtitle = "日々是logging" # Logo subtitle
+
+#[Params.thumbnail]
+#  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+#  # Enable widgets in given order
+#  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["social", "search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#  facebook = "username"
+  twitter = "teslur"
+#  instagram = "username"
+#  linkedin = "username"
+#  telegram = "username"
+  github = "teslur"
+#  gitlab = "username"
+#  bitbucket = "username"
+#  email = "example@example.com"
+
+# Custom social links
+#[[Params.widgets.social.custom]]
+#  title = "Youtube"
+#  url = "https://youtube.com/user/username"
+#  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+#  rel = "noopener noreferrer" # Set to false to remove the rel attribute
+#
+#[[Params.widgets.social.custom]]
+#  title = "My Home Page"
+#  url = "https://example.com"
+#
+#[Params.widgets.search]
+#  url = "https://google.com/search"
+#  [Params.widgets.search.input]
+#    name = "sitesearch"
+#    pre = ""
+
