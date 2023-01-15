@@ -6,6 +6,16 @@ theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
+[menu]
+  [[menu.main]]
+    name = "記事一覧"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "管理用"
+    url = "/admin"
+    weight = 100
+
 [Author]
   name = "teslur （深堀哲史 / TETSUSHI Fukabori）"
   bio = "A Software Engineer. 写真撮影、コーヒー、登山、愛犬と遊ぶこと、家族が好き."
