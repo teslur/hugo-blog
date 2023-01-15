@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://logs.teslur.jp/"
 title = "logs.teslur"
 languageCode = "ja-JP"
 paginate = "10" # Number of posts per page
