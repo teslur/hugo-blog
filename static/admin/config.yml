@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: teslur/teslur.github.io
+  branch: main
+  site_domain: fluffy-taffy-37fb12.netlify.app
+media_folder: static/img
+public_folder: /img
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/post'
+    create: true
+    slug: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string', default: 'teslur' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', required: false }
+      - { label: 'Categories', name: 'categories', widget: 'list', required: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Menu', name: 'menu', widget: 'select', options: ["main", "side", "footer"], required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
