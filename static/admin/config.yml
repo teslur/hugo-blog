@@ -13,6 +13,8 @@ collections:
     slug: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}-{{slug}}'
     editor:
       preview: true
+    media_folder: ''
+    public_folder: ''
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string', default: 'teslur' }
