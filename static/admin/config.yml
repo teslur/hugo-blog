@@ -5,6 +5,7 @@ backend:
   site_domain: fluffy-taffy-37fb12.netlify.app
 media_folder: static/img
 public_folder: /img
+locale: ja
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -13,8 +14,6 @@ collections:
     slug: '{{year}}{{month}}{{day}}{{hour}}{{minute}}{{second}}-{{slug}}'
     editor:
       preview: true
-    media_folder: ''
-    public_folder: ''
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Author', name: 'author', widget: 'string', default: 'teslur' }
@@ -24,5 +23,5 @@ collections:
       - { label: 'Categories', name: 'categories', widget: 'list', required: false }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Menu', name: 'menu', widget: 'select', options: ["main", "side", "footer"], required: false }
-      - { label: 'Body', name: 'body', widget: 'text' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
