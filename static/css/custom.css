@@ -6,3 +6,7 @@ body {
   text-transform: none;
 }
 
+figure.center {
+  text-align: center;
+}
+
