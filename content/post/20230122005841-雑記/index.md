@@ -90,7 +90,7 @@ tags:
 我が家は冬の主力暖房が灯油ストーブなのでさほど電気料金は上がらない。  
 灯油はそんなに高くない…と言っても五年で1.3倍くらいにはなっているようだが。
 
-{{< figure src="./oil_price.png" class="center" caption="灯油価格の推移" alt="灯油価格の推移" >}}
+{{< figure src="./images/oil_price.png" class="center" caption="灯油価格の推移" alt="灯油価格の推移" >}}
 
 来週の中頃は今年一番の寒波だそうだ。  
 人死が出ないことを祈るばかり。
