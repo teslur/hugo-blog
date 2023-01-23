@@ -5,11 +5,13 @@ draft: false
 
 #description: "Example article description"
 categories:
- - "日常"
+  - "日常"
+  - "技術"
 tags:
   - "家族"
   - "犬"
   - "ミルコ"
+  - "Rust"
 #  - "Another test"
 #menu: main # Optional, add page to a menu. Options: main, side, footer
 
