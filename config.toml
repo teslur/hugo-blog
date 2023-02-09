@@ -100,3 +100,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #    name = "sitesearch"
 #    pre = ""
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
