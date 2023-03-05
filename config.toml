@@ -83,6 +83,11 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #  bitbucket = "username"
 #  email = "example@example.com"
 
+[Params.shareButtons]
+  networks = [ "twitter" ]
+  size = "small"
+  icon = "solid"
+
 # Custom social links
 #[[Params.widgets.social.custom]]
 #  title = "Youtube"
